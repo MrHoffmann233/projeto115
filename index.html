@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detecção de Áudio</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js" type="text/javascript"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header_div">
+            <h2>App de Detecção de Áudio</h2>
+            <p>Nota: Os áudios devem ser reproduzidos para que o aplicativo funcione.</p>
+            <div class="btn_div">
+                <button class="btn btn-primary" id="startBtn">Iniciar Detecção</button>
+            </div>
+        </div>
+        <div class="main_div">
+            <center>
+                <button class="btn btn-success" id="playAudioBtn" style="display:none;">Reproduzir Áudio</button>
+                <h4 id="countText">0 vezes detectado</h4>
+                <h3 id="animalText">Nome do Animal</h3>
+                <br>
+                <img id="animalImage" src="caminho_para_imagem.gif" width="200" height="200">
+            </center>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div class="copy_right_footer">
+        <p>&copy; 2024 Nome da Sua Empresa. Todos os direitos reservados.</p>
+    </div>
+</body>
+
+</html>
